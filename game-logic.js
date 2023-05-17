@@ -1,6 +1,6 @@
 const btn = document.getElementById('btn');
 const output = document.getElementById('OutputText');
-const number = Math.floor(Math.random() * 100);
+const number = Math.floor(Math.random() * 100) + 1;
 
 btn.addEventListener('click', function() {
     const input = document.getElementById('userInput').value;
