@@ -28,6 +28,12 @@ body {
     box-shadow:10px;
 }
 
+#userInput::-webkit-outer-spin-button,
+#userInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 #btn {
     border-color: greenyellow;
     background-color: greenyellow;
