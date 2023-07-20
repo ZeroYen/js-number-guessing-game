@@ -1,10 +1,11 @@
 body {
-    margin: 160px 0px 0px 0px;
-    display:flex;
+    margin: 0px;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: #83cdec;
     font-family: kanit;
+    height:100vh;
 }
 
 #container{
